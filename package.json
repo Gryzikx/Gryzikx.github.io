@@ -1,11 +1,10 @@
 {
-  "name": "playoo-calendar-web",
+  "name": "sylwester-web",
   "version": "0.1.0",
   "main": "index.js",
-  "author": "Leancode",
+  "author": "Gryzikx",
   "license": "MIT",
   "scripts": {
-    "gen-contracts": "node ./tools/generate-contracts.js",
     "dev": "webpack-dev-server --config webpack.hot.js",
     "build": "webpack"
   },

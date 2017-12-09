@@ -1,7 +1,4 @@
 interface Configuration {
-    AuthEndpoint: string;
-    AuthSecret: string;
-    CqrsEndpoint: string;
 }
 
 declare module "config" {

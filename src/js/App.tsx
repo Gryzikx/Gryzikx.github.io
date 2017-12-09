@@ -13,12 +13,13 @@ export class App extends React.Component<{}, { isSigned: boolean }> {
 
     render() {
         return (<div>
-            {
+            TEST
+            {/* {
                 <Switch>
                     <Route exact path={routes.Videos} component={Videos} />
                     <Route exact path={routes.AddVideo} component={AddVideo} />
                 </Switch>
-            }
+            } */}
         </div>
         );
     }
