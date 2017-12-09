@@ -14,7 +14,7 @@ module.exports = {
     ],
 
     output: {
-        path: path.join(deployDir, "dist"),
+        path: path.join(deployDir, "build"),
         filename: "[name].js",
         publicPath: "/"
     },

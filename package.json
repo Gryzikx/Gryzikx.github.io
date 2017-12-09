@@ -4,10 +4,10 @@
   "main": "index.js",
   "author": "Gryzikx",
   "license": "MIT",
-  "homepage": "https://gryzikx.github.io",
+  "homepage": "https://gryzikxgit.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "dev": "webpack-dev-server --config webpack.hot.js",
     "build": "webpack"
   },
