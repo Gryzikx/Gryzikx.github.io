@@ -5,6 +5,8 @@
   "author": "Gryzikx",
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "webpack-dev-server --config webpack.hot.js",
     "build": "webpack"
   },
@@ -14,6 +16,7 @@
     "ajax": "^0.0.4",
     "axios": "^0.17.1",
     "express": "^4.15.3",
+    "gh-pages": "^1.1.0",
     "material-ui": "^0.18.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
